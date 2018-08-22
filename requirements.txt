@@ -1,0 +1,7 @@
+setuptools>=0
+pytz>=0
+zope.interface>=0
+dnslib>=0.9.7
+scapy>=2.4.0
+datetime>=4.2
+
