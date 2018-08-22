@@ -40,3 +40,4 @@ Log file:
 (MainThreadWARNING:02/27/2018 12:29:45 PM:256:whitelist_blacklist.py:refresh_acl:Added www.facebook.com->2a03:2880:f103:83:face:b00c:0:25de to acl in HAPROXY.
 
 
+# Transparent_DNS_Proxy
