@@ -1,0 +1,10 @@
+obj-m += act_trproxy.o
+# adjust this to your location
+KDIR  := $(HOME)/work/git-trees/costco-kernel-5.0.git
+MSRC  := $(HOME)/work/git-trees/tc-actions-5.0/act-trproxy
+ccflags-y := -I$(MSRC)/myinclude -I$(MSRC)/myinclude/uapi
+
+default:
+	$(MAKE) -C $(KDIR) M=$(MSRC) modules
+clean:
+	$(MAKE) -C $(KDIR) M=$(MSRC) clean
